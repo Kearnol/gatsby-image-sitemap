@@ -1,4 +1,4 @@
-const cheerio = require("cheerio");
+const cheerio = require("cheerio").default;
 const sm = require("sitemap");
 const fs = require("fs");
 const defaultOptions = require('./default-options');
